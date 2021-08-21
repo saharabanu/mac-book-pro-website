@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac-Book-Pro</title>
+    <!-- tailwind css   -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="container macbook mx-auto">
+            <div class="grid grid-cols-2">
+                <!-- image side  start-->
+                <div class="macbook-img w-3/4">
+                <img src="images/mac.png" alt="">
+                </div>
+                <!-- image side  end-->
+
+                <!-- product configuration start-->
+                <div class="product-config">
+                <!-- product details starts -->
+                <div class="product-details">
+                    <h1 class="text-3xl mb-2">customize your blue 24 -inch iMac with apple M1 chip</h1>
+                    <p>apple M1 chip with 8-core CPU with 4 performence cores and 4 efficiency cores, 7-core CPU, 16 cores naeural Engine 8GB unified memory 256GB SSD storage two thunderbolt / USB 4 ports Magic Mouse Magic Keyboard Us English.</p>
+                </div>
+                 <!-- product details ends -->
+                  <!-- Memory config starts -->
+                <div class="memory-config">
+                    <h2 class="text-2xl mb-2">Memory</h2>
+                    <button id="config-eight-gb" class="border p-2 ">8GB unigfied memory</button>
+                    <button id="config-sixteen-gb" class="border p-2 ">16GB unified memory</button>
+                </div>
+                 <!-- Memory config ends -->
+
+                 <!-- storage config starts -->
+                <div class="storage-config">
+                    <h2  class="text-2xl mb-2">Storage</h2>
+                    <button id="storage-first" class="border p-2 mb-2">256GB SSD storage</button>
+                    <button id="storage-second" class="border p-2 ">512GB SSD storage</button>
+                    <button id="storage-third"class="border p-2 " >1TB SSD storage</button>
+                </div>
+                <!-- storage config ends -->
+
+                <!-- delivery option starts -->
+                <div class="delivery-option mb-4">
+                    <h2  class="text-2xl mb-2" >Choose your delivery option</h2>
+                    <button id="free-cost" class="border p-2 mb-2 " >Firiday, Aug 25 FREE prime delivery</button>
+                    <button id="insert-shipping-cost" class="border p-2 ">Firiday, Aug 21 delivery charge $ 20</button>
+                </div>
+                 <!-- delivery option ends -->
+
+                  <!-- product cart item starts -->
+                <div class="cost-item">
+                    <div class="row">
+                        <div class="grid grid-cols-2">
+                            
+                       <div class="product-name text-xl">
+                        <h5>Best price </h5>
+                        <h5>Extra memory cost</h5>
+                        <h5>Extra storage cost</h5>
+                        <h5> Delivery charge </h5>
+                        <h5>Total price</h5>
+                       </div>
+                     <div class="text-xl mb-4">
+                        <h5>$<span id="best-price">1299</span></h5>
+                        <h5>$<span id="memory-cost">0</span></h5>
+                        <h5>$<span id="storage-cost">0</span></h5>
+                        <h5>$<span id="delivery-charge">0</span></h5>
+                        <h5>$<span id="grand-total">1299</span></h5>
+
+                     </div>
+
+                        </div>
+                    </div>
+                    
+  
+                    
+                 </div>
+                 <!-- product cart item ends -->
+
+                 <!-- Promo code starts -->
+                 <div class="promo-code">
+                     <h4 class="text-2xl">Add Pomo code</h4>
+                     <input id="coupon-code"class="border p-2" type="text">
+                     <button id="code-btn" class="border p-2 text-white bg-red-600" >Apply</button>
+                    
+                 </div>
+                 <!-- Promo code ends -->
+                
+            </div>
+            <!-- product configuration end-->
+        </div>
+
+        </section>
+        
+        <h1 class="text-center text-2xl ">Total:$<span id="total-price">1299</span></h1>
+
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
